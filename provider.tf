@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   # Configuration options
-  shared_credentials_file = "/home/mani/mani_creds"
 region = "ap-southeast-1"
+profile = "mani"
 }
 
